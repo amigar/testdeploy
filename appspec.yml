@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/ebs/testdeploy
+     destination: /var/www/html/testdeploy
 permissions:
-   - object: /var/www/ebs
+   - object: /var/www/html
      pattern: "**"
      owner: www-data
      group: www-data
